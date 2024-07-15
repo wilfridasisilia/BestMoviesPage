@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .item {
+    padding: 18px;
+    margin: 2px 0;
+    background-color: #b0c9d7;
+    color: #116178;
+    border-radius: 5px;
+    width: 90%;
+    align-self: center;
+    border: 2px solid whitesmoke;
+  }
+  
+  h1,
+  .item {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-family: Verdana;
+    text-decoration: underline;
+    color: white;
+  }
+  
+  button {
+    border-radius: 5px;
+    margin: 10px 5px;
+    font-weight: bold;
+    border: 1px solid gray;
+    background-color: white;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  body {
+    background-color: #003c4d;
+  }
+  
+  .movie-list {
+    width: 80%;
+    margin: auto;
+  }
+  
